@@ -1,0 +1,70 @@
+/** projekt: SoMe projekt*/
+
+
+/* Google fonts */
+/* font-family: italiana, serif; font-style: regular; */
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+/* Variabler gemmes*/
+:root {
+  /* farver */
+  --offwhite: #fff9f4;
+  --beige: #f2ece7;
+  --grey: #c3c4c0;
+  --blue: #a0d2f7;
+  --darkgrey: #454343;
+  --darkblue: #3540C1;
+
+
+  /* fonte */
+  --overskrift: 'italiana', serif; /* overskrifter */
+  --brødtekst: 'Helvetica Neue', sans-serif;/* brødtekst */
+}
+
+body {
+  background-color: var(--beige);
+}
+
+
+  /* Typografi */
+
+  h1 {
+    font-family: var(--brødtekst);
+    font-size: 30px;
+    color: var(--darkblue);
+    text-align: center;
+  }
+
+  h2 {
+    font-family: var(--brødtekst);
+    font-size: 20px;
+    color: var(--darkblue);
+      text-align: center;
+  }
+
+
+
+  .kasser {
+    background-color: var(--offwhite);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .kasser h2, .langkasse h2 {
+    padding-top: 80px;
+  }
+
+  .langkasse {
+    max-height: 200px;
+    width: 680px;
+    background-color: var(--offwhite);
+    text-align: center;
+    margin: 20px;
+  }
+
+  .row {
+    display: flex;
+  }
